@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE3D9DB6285C177F5FBE069 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545530B8CA65574569F17B1 /* SearchEngine.swift */; };
+		1255B25D775CDA8E3EC6A74F /* TimelineBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF6EC0E6CA765A10E47125 /* TimelineBuilder.swift */; };
+		20EB005CCC0F5AD3F17D283D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6640B9BBFB7FFB87C90AD /* ContentView.swift */; };
+		253B0DC451B512C03A8931B5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF4131BB56A16B0335A3A62 /* Models.swift */; };
+		28E7E1F5B3377D3AE2675937 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B3D2A7B1446C36FEF0B303 /* SidebarView.swift */; };
+		2B8DDEE2B5710F2895CF9289 /* GitRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994CEA9561178C7E5E8D7B2 /* GitRunner.swift */; };
+		420934EEAE7315EA9056F865 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3545530B8CA65574569F17B1 /* SearchEngine.swift */; };
+		42C86D211C4B1BE494DF38C2 /* UnifiedDiffParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70121D47EFB1FE7354C54262 /* UnifiedDiffParser.swift */; };
+		4B4F9905E45264039D1301CE /* SessionLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041B1A17C21B9108107FCFF /* SessionLensApp.swift */; };
+		5BD4A39B055BEDD92B330A76 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771A28D55C752B855470379 /* SettingsView.swift */; };
+		5D2F3AA571F479FD66CEBCC1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB508E3077983483886778 /* Store.swift */; };
+		68C6B27636FBBABC5B6E1DD8 /* SessionLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041B1A17C21B9108107FCFF /* SessionLensApp.swift */; };
+		699C6C0D049FF70B1BD6D25E /* DiffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B890B47130E132D9B09786 /* DiffView.swift */; };
+		72D822533384229036E58F5E /* JSONLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CABC7A89CE32D469597A08 /* JSONLParser.swift */; };
+		79D91D09E459D448263D54CE /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48467029521AED02778125 /* TimelineView.swift */; };
+		876671AA9B121E6B4BB90BCA /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CDEB2946BA662838FECBB5 /* StoreTests.swift */; };
+		8D9705364D642E6E51BFBF37 /* GitRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994CEA9561178C7E5E8D7B2 /* GitRunner.swift */; };
+		8EC8FD680ED6885D5FA574C3 /* SearchEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50D1A6C4BA08B3D651357E2 /* SearchEngineTests.swift */; };
+		936DCEF261C25CE50994C0E7 /* DiffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B890B47130E132D9B09786 /* DiffView.swift */; };
+		9377768D87BA207AE2874F10 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BDB8B0D05CF2E9F9CFAE78 /* SessionsView.swift */; };
+		97824DD37D5DDDE4E9809A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E6640B9BBFB7FFB87C90AD /* ContentView.swift */; };
+		99D4BA4547BBD3E1E281B408 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BDB8B0D05CF2E9F9CFAE78 /* SessionsView.swift */; };
+		9B7AE666082047E160918065 /* JSONLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CABC7A89CE32D469597A08 /* JSONLParser.swift */; };
+		A4B0E66FC7631A247CCA9C10 /* UnifiedDiffParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE627BEE4446B3BBAE45D7AB /* UnifiedDiffParserTests.swift */; };
+		B185CF947C26F7CC2757CF28 /* SessionLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075665562F869EC73228AA55 /* SessionLensUITests.swift */; };
+		B5694B9192C4B8F9D0E231B7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771A28D55C752B855470379 /* SettingsView.swift */; };
+		B90C67F258C02F190AE9C6AB /* TimelineBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B750343EF740B4EB7F38EB /* TimelineBuilderTests.swift */; };
+		B91C74697A56186DAA6C0FCA /* UnifiedDiffParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70121D47EFB1FE7354C54262 /* UnifiedDiffParser.swift */; };
+		BC2B8FBE5CD1936408BC3E64 /* TimelineBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF6EC0E6CA765A10E47125 /* TimelineBuilder.swift */; };
+		BCB9CF0F5E484D21C298618B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF4131BB56A16B0335A3A62 /* Models.swift */; };
+		C7B98DF07287E78322857DBF /* JSONLParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DA2FE0B2FA0B9BE439D94 /* JSONLParserTests.swift */; };
+		E71A9E7CB03027D32F3DE07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B044E8C648BA4976459EE38 /* Assets.xcassets */; };
+		EE0BF1B54C016A0B4C9B4F94 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB508E3077983483886778 /* Store.swift */; };
+		F0FFF099484877B1AC01B359 /* DemoFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F413DE6FE53466D57F72E201 /* DemoFixture.swift */; };
+		F2C8AB736C55836F2B25BE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B044E8C648BA4976459EE38 /* Assets.xcassets */; };
+		F51CFA4332A760AE558E506B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B3D2A7B1446C36FEF0B303 /* SidebarView.swift */; };
+		F6AF9705FC055B11AADEC38D /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48467029521AED02778125 /* TimelineView.swift */; };
+		F7D442AE585CF803F5291596 /* DemoFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F413DE6FE53466D57F72E201 /* DemoFixture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D92FF0C1F00A1A3F1DF0CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99476AA379D44FCC139C1E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8782BD0258E0D75972F7E49;
+			remoteInfo = SessionLens;
+		};
+		C9BEC19D34658B075318E946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99476AA379D44FCC139C1E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8782BD0258E0D75972F7E49;
+			remoteInfo = SessionLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075665562F869EC73228AA55 /* SessionLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLensUITests.swift; sourceTree = "<group>"; };
+		1771A28D55C752B855470379 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		17CABC7A89CE32D469597A08 /* JSONLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLParser.swift; sourceTree = "<group>"; };
+		259625496EAA4399742162C4 /* SessionLens.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SessionLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFB508E3077983483886778 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		31B750343EF740B4EB7F38EB /* TimelineBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineBuilderTests.swift; sourceTree = "<group>"; };
+		3545530B8CA65574569F17B1 /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		4041B1A17C21B9108107FCFF /* SessionLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLensApp.swift; sourceTree = "<group>"; };
+		464DA2FE0B2FA0B9BE439D94 /* JSONLParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLParserTests.swift; sourceTree = "<group>"; };
+		4B044E8C648BA4976459EE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5994CEA9561178C7E5E8D7B2 /* GitRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRunner.swift; sourceTree = "<group>"; };
+		5D000C65FB1D5E28679301C6 /* SessionLensUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SessionLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F48467029521AED02778125 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		5FAF6EC0E6CA765A10E47125 /* TimelineBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineBuilder.swift; sourceTree = "<group>"; };
+		6D220D34026FF2312D525186 /* SessionLensTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SessionLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70121D47EFB1FE7354C54262 /* UnifiedDiffParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedDiffParser.swift; sourceTree = "<group>"; };
+		90BDB8B0D05CF2E9F9CFAE78 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		AE627BEE4446B3BBAE45D7AB /* UnifiedDiffParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedDiffParserTests.swift; sourceTree = "<group>"; };
+		BEF4131BB56A16B0335A3A62 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C8B890B47130E132D9B09786 /* DiffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffView.swift; sourceTree = "<group>"; };
+		C9F3DFAA39DB7E2D3EC77C8C /* SessionLensMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SessionLensMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E6640B9BBFB7FFB87C90AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E50D1A6C4BA08B3D651357E2 /* SearchEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngineTests.swift; sourceTree = "<group>"; };
+		E6CDEB2946BA662838FECBB5 /* StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
+		E8B3D2A7B1446C36FEF0B303 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		F413DE6FE53466D57F72E201 /* DemoFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFixture.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B0AE931534236951DA7026E /* SessionLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				464DA2FE0B2FA0B9BE439D94 /* JSONLParserTests.swift */,
+				E50D1A6C4BA08B3D651357E2 /* SearchEngineTests.swift */,
+				E6CDEB2946BA662838FECBB5 /* StoreTests.swift */,
+				31B750343EF740B4EB7F38EB /* TimelineBuilderTests.swift */,
+				AE627BEE4446B3BBAE45D7AB /* UnifiedDiffParserTests.swift */,
+			);
+			path = SessionLensTests;
+			sourceTree = "<group>";
+		};
+		222582F01FF8EEB80997DCD0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B044E8C648BA4976459EE38 /* Assets.xcassets */,
+				F413DE6FE53466D57F72E201 /* DemoFixture.swift */,
+				5994CEA9561178C7E5E8D7B2 /* GitRunner.swift */,
+				17CABC7A89CE32D469597A08 /* JSONLParser.swift */,
+				BEF4131BB56A16B0335A3A62 /* Models.swift */,
+				3545530B8CA65574569F17B1 /* SearchEngine.swift */,
+				4041B1A17C21B9108107FCFF /* SessionLensApp.swift */,
+				2BFB508E3077983483886778 /* Store.swift */,
+				5FAF6EC0E6CA765A10E47125 /* TimelineBuilder.swift */,
+				70121D47EFB1FE7354C54262 /* UnifiedDiffParser.swift */,
+				CCDCE9F98F1EB1F658D0EDB5 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		676C7D71D83AF3C3D7F0270F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B0AE931534236951DA7026E /* SessionLensTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6BCE828C1E3D7F97BF565EA0 = {
+			isa = PBXGroup;
+			children = (
+				222582F01FF8EEB80997DCD0 /* Sources */,
+				676C7D71D83AF3C3D7F0270F /* Tests */,
+				A62CC048B41A4550BD9768FC /* UITests */,
+				99DFBA9015F60095054DF5A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99DFBA9015F60095054DF5A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259625496EAA4399742162C4 /* SessionLens.app */,
+				C9F3DFAA39DB7E2D3EC77C8C /* SessionLensMac.app */,
+				6D220D34026FF2312D525186 /* SessionLensTests.xctest */,
+				5D000C65FB1D5E28679301C6 /* SessionLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62CC048B41A4550BD9768FC /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBA489BA4F03A7E5498FB3E8 /* SessionLensUITests */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		CCDCE9F98F1EB1F658D0EDB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6640B9BBFB7FFB87C90AD /* ContentView.swift */,
+				C8B890B47130E132D9B09786 /* DiffView.swift */,
+				90BDB8B0D05CF2E9F9CFAE78 /* SessionsView.swift */,
+				1771A28D55C752B855470379 /* SettingsView.swift */,
+				E8B3D2A7B1446C36FEF0B303 /* SidebarView.swift */,
+				5F48467029521AED02778125 /* TimelineView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBA489BA4F03A7E5498FB3E8 /* SessionLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				075665562F869EC73228AA55 /* SessionLensUITests.swift */,
+			);
+			path = SessionLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00772A32913052CF21CC3772 /* SessionLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D068372D36D63CB360569E22 /* Build configuration list for PBXNativeTarget "SessionLensUITests" */;
+			buildPhases = (
+				4C48E5FB6B5D960352A85C3A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4886CA8544957493B6CB391 /* PBXTargetDependency */,
+			);
+			name = SessionLensUITests;
+			packageProductDependencies = (
+			);
+			productName = SessionLensUITests;
+			productReference = 5D000C65FB1D5E28679301C6 /* SessionLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2FFB0E48975873B5F7874797 /* SessionLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E682B504BBF3F94038C81AF /* Build configuration list for PBXNativeTarget "SessionLensTests" */;
+			buildPhases = (
+				87FEA239454DCF4C5FFB44F4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65D1D23CB4FBE80B3530528 /* PBXTargetDependency */,
+			);
+			name = SessionLensTests;
+			packageProductDependencies = (
+			);
+			productName = SessionLensTests;
+			productReference = 6D220D34026FF2312D525186 /* SessionLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5019028B5915402AACA491DC /* SessionLensMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1567E42C6FAD27CF9FB725C /* Build configuration list for PBXNativeTarget "SessionLensMac" */;
+			buildPhases = (
+				D17C13EE136DABA2DC1230E0 /* Sources */,
+				BF5DEE6E2A502CF865F7A18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SessionLensMac;
+			packageProductDependencies = (
+			);
+			productName = SessionLensMac;
+			productReference = C9F3DFAA39DB7E2D3EC77C8C /* SessionLensMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8782BD0258E0D75972F7E49 /* SessionLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7944349879E2293543845 /* Build configuration list for PBXNativeTarget "SessionLens" */;
+			buildPhases = (
+				7E9C5AE429AAFC165FCC3D83 /* Sources */,
+				41525BFF9348AE52A17DCF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SessionLens;
+			packageProductDependencies = (
+			);
+			productName = SessionLens;
+			productReference = 259625496EAA4399742162C4 /* SessionLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99476AA379D44FCC139C1E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00772A32913052CF21CC3772 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8782BD0258E0D75972F7E49;
+					};
+					2FFB0E48975873B5F7874797 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					5019028B5915402AACA491DC = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F8782BD0258E0D75972F7E49 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CCF7C0DDA78155FD969F9B95 /* Build configuration list for PBXProject "SessionLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6BCE828C1E3D7F97BF565EA0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 99DFBA9015F60095054DF5A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8782BD0258E0D75972F7E49 /* SessionLens */,
+				5019028B5915402AACA491DC /* SessionLensMac */,
+				2FFB0E48975873B5F7874797 /* SessionLensTests */,
+				00772A32913052CF21CC3772 /* SessionLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41525BFF9348AE52A17DCF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71A9E7CB03027D32F3DE07A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5DEE6E2A502CF865F7A18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C8AB736C55836F2B25BE74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C48E5FB6B5D960352A85C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B185CF947C26F7CC2757CF28 /* SessionLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E9C5AE429AAFC165FCC3D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97824DD37D5DDDE4E9809A7B /* ContentView.swift in Sources */,
+				F7D442AE585CF803F5291596 /* DemoFixture.swift in Sources */,
+				699C6C0D049FF70B1BD6D25E /* DiffView.swift in Sources */,
+				2B8DDEE2B5710F2895CF9289 /* GitRunner.swift in Sources */,
+				72D822533384229036E58F5E /* JSONLParser.swift in Sources */,
+				BCB9CF0F5E484D21C298618B /* Models.swift in Sources */,
+				420934EEAE7315EA9056F865 /* SearchEngine.swift in Sources */,
+				4B4F9905E45264039D1301CE /* SessionLensApp.swift in Sources */,
+				9377768D87BA207AE2874F10 /* SessionsView.swift in Sources */,
+				B5694B9192C4B8F9D0E231B7 /* SettingsView.swift in Sources */,
+				F51CFA4332A760AE558E506B /* SidebarView.swift in Sources */,
+				5D2F3AA571F479FD66CEBCC1 /* Store.swift in Sources */,
+				1255B25D775CDA8E3EC6A74F /* TimelineBuilder.swift in Sources */,
+				79D91D09E459D448263D54CE /* TimelineView.swift in Sources */,
+				B91C74697A56186DAA6C0FCA /* UnifiedDiffParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FEA239454DCF4C5FFB44F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B98DF07287E78322857DBF /* JSONLParserTests.swift in Sources */,
+				8EC8FD680ED6885D5FA574C3 /* SearchEngineTests.swift in Sources */,
+				876671AA9B121E6B4BB90BCA /* StoreTests.swift in Sources */,
+				B90C67F258C02F190AE9C6AB /* TimelineBuilderTests.swift in Sources */,
+				A4B0E66FC7631A247CCA9C10 /* UnifiedDiffParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C13EE136DABA2DC1230E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EB005CCC0F5AD3F17D283D /* ContentView.swift in Sources */,
+				F0FFF099484877B1AC01B359 /* DemoFixture.swift in Sources */,
+				936DCEF261C25CE50994C0E7 /* DiffView.swift in Sources */,
+				8D9705364D642E6E51BFBF37 /* GitRunner.swift in Sources */,
+				9B7AE666082047E160918065 /* JSONLParser.swift in Sources */,
+				253B0DC451B512C03A8931B5 /* Models.swift in Sources */,
+				0FE3D9DB6285C177F5FBE069 /* SearchEngine.swift in Sources */,
+				68C6B27636FBBABC5B6E1DD8 /* SessionLensApp.swift in Sources */,
+				99D4BA4547BBD3E1E281B408 /* SessionsView.swift in Sources */,
+				5BD4A39B055BEDD92B330A76 /* SettingsView.swift in Sources */,
+				28E7E1F5B3377D3AE2675937 /* SidebarView.swift in Sources */,
+				EE0BF1B54C016A0B4C9B4F94 /* Store.swift in Sources */,
+				BC2B8FBE5CD1936408BC3E64 /* TimelineBuilder.swift in Sources */,
+				F6AF9705FC055B11AADEC38D /* TimelineView.swift in Sources */,
+				42C86D211C4B1BE494DF38C2 /* UnifiedDiffParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65D1D23CB4FBE80B3530528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8782BD0258E0D75972F7E49 /* SessionLens */;
+			targetProxy = 9D92FF0C1F00A1A3F1DF0CBD /* PBXContainerItemProxy */;
+		};
+		F4886CA8544957493B6CB391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8782BD0258E0D75972F7E49 /* SessionLens */;
+			targetProxy = C9BEC19D34658B075318E946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10294926316F73D664ED6DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.SessionLensUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SessionLens;
+			};
+			name = Debug;
+		};
+		204E1763CD173A61673551CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.SessionLensTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SessionLens.app/SessionLens";
+			};
+			name = Debug;
+		};
+		371CCD73991975BFDC940123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 dcreations. Apache-2.0.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.sessionlens;
+				PRODUCT_NAME = SessionLens;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		516B573F8B566A64ED578942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SessionLens.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 dcreations. Apache-2.0.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.sessionlens;
+				PRODUCT_MODULE_NAME = SessionLens;
+				PRODUCT_NAME = "Session Lens";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5DFB0FF045832ED581AB3E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SessionLens.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 dcreations. Apache-2.0.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.sessionlens;
+				PRODUCT_MODULE_NAME = SessionLens;
+				PRODUCT_NAME = "Session Lens";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		747D97BB576F36764A26B53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.SessionLensUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SessionLens;
+			};
+			name = Release;
+		};
+		79541EC7CE060BD9F09902CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Session Lens";
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9444B121B68C785DE3F4D0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Session Lens";
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C257FF32A508490430F0FC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.SessionLensTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SessionLens.app/SessionLens";
+			};
+			name = Release;
+		};
+		E7FBDE716747FE9609B90B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 dcreations. Apache-2.0.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.sessionlens;
+				PRODUCT_NAME = SessionLens;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E682B504BBF3F94038C81AF /* Build configuration list for PBXNativeTarget "SessionLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204E1763CD173A61673551CF /* Debug */,
+				C257FF32A508490430F0FC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CE7944349879E2293543845 /* Build configuration list for PBXNativeTarget "SessionLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FBDE716747FE9609B90B78 /* Debug */,
+				371CCD73991975BFDC940123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1567E42C6FAD27CF9FB725C /* Build configuration list for PBXNativeTarget "SessionLensMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFB0FF045832ED581AB3E93 /* Debug */,
+				516B573F8B566A64ED578942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCF7C0DDA78155FD969F9B95 /* Build configuration list for PBXProject "SessionLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79541EC7CE060BD9F09902CB /* Debug */,
+				9444B121B68C785DE3F4D0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D068372D36D63CB360569E22 /* Build configuration list for PBXNativeTarget "SessionLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10294926316F73D664ED6DFE /* Debug */,
+				747D97BB576F36764A26B53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99476AA379D44FCC139C1E41 /* Project object */;
+}
