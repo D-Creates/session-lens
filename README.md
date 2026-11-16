@@ -14,4 +14,4 @@ Session Lens — an offline viewer for macOS that opens agent session logs (JSON
 
 
 
-Made by [D-CREATIONS](https://dcreations.fr), Montpellier. MIT licence.
+Made by [D-CREATIONS](https://dcreations.fr), Montpellier. Apache License 2.0 (see LICENSE and NOTICE).
